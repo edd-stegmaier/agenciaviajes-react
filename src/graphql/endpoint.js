@@ -1,0 +1,2 @@
+
+export const GRAPHQL_ENDPOINT = `${import.meta.env.BASE_URL}graphql`;

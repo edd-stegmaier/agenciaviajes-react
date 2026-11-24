@@ -1,0 +1,19 @@
+.travel-hero {
+  position: relative;
+  isolation: isolate;
+}
+
+.travel-hero::before {
+  position: absolute;
+  z-index: -1;
+  top: -12rem;
+  right: -9rem;
+  width: 34rem;
+  height: 34rem;
+  border: 1px solid rgb(5 150 105 / 10%);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 3rem rgb(5 150 105 / 3%),
+    0 0 0 7rem rgb(5 150 105 / 2%);
+  content: '';
+}
